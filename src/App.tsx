@@ -1,12 +1,12 @@
 import './App.css'
-import pfp from './assets/media.jpg';
+import profileimage from './assets/Media.jpg';
 function App() {
 
 
   return (
     <div style ={{ textAlign: "center", padding:"30px", fontFamily:"math"}}>
         <h1>My Portfolio</h1>
-        <img src={pfp} alt="Church Logo" style={{ height: '70px', width: 'auto', objectFit: 'contain', borderRadius: '4px' }} />
+        <img src={profileimage} alt="Church Logo" style={{ height: '70px', width: 'auto', objectFit: 'contain', borderRadius: '4px' }} />
         <div style={{ marginTop: "30px"}}>
             <h2>About Me</h2>
             <p>
